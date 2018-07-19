@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="generic_right_margin">20dp</dimen>
+    <dimen name="generic_left_margin">20dp</dimen>
+    <dimen name="generic_top_margin">10dp</dimen>
+    <dimen name="confirmar_datos_titulo_size">25dp</dimen>
+
+
+</resources>

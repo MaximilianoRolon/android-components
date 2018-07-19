@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FormApp</string>
+    <string name="hint_nombre">Nombre Completo</string>
+    <string name="text_fecha">Fecha de nacimiento:</string>
+    <string name="hint_telefono">Telefono</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_descripcion">Descripcion Contacto</string>
+    <string name="confirmar_datos">Confirmar Datos</string>
+    <string name="editar_datos">Editar Datos</string>
+    <string name="boton_siguiente">Siguiente</string>
+
+
+</resources>

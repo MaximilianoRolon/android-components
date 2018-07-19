@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.formapp.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/miLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/etNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/generic_left_margin"
+            android:layout_marginTop="@dimen/generic_top_margin"
+            android:layout_marginRight="@dimen/generic_right_margin"
+            android:hint="@string/hint_nombre"/>
+
+        <EditText
+            android:id="@+id/tvFecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/generic_left_margin"
+            android:layout_marginTop="@dimen/generic_top_margin"
+            android:layout_marginRight="@dimen/generic_right_margin"
+            android:onClick="showDatePickerDialog"
+            android:focusable="false"
+            android:text="@string/text_fecha"/>
+
+        <EditText
+            android:id="@+id/etTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/generic_left_margin"
+            android:layout_marginTop="@dimen/generic_top_margin"
+            android:layout_marginRight="@dimen/generic_right_margin"
+            android:hint="@string/hint_telefono"/>
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/generic_left_margin"
+            android:layout_marginTop="@dimen/generic_top_margin"
+            android:layout_marginRight="@dimen/generic_right_margin"
+            android:hint="@string/hint_email"/>
+
+        <EditText
+            android:id="@+id/etDescripcionContacto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/generic_left_margin"
+            android:layout_marginTop="@dimen/generic_top_margin"
+            android:layout_marginRight="@dimen/generic_right_margin"
+            android:hint="@string/hint_descripcion"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/generic_left_margin"
+            android:layout_marginTop="@dimen/generic_top_margin"
+            android:layout_marginRight="@dimen/generic_right_margin"
+            android:layout_gravity="center"
+            android:text="@string/boton_siguiente"
+            android:onClick="sendData"/>
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

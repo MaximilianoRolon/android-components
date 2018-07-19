@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.formapp.ConfirmarDatos">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvConfirmarDatosTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/generic_left_margin"
+            android:layout_marginTop="@dimen/generic_top_margin"
+            android:layout_marginRight="@dimen/generic_right_margin"
+            android:layout_gravity="center"
+            android:text="@string/confirmar_datos"
+            android:textSize="@dimen/confirmar_datos_titulo_size"/>
+
+        <TextView
+            android:id="@+id/tvConfirmarDatosNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/generic_left_margin"
+            android:layout_marginTop="@dimen/generic_top_margin"
+            android:layout_marginRight="@dimen/generic_right_margin"/>
+
+        <TextView
+            android:id="@+id/tvConfirmarDatosFecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/generic_left_margin"
+            android:layout_marginTop="@dimen/generic_top_margin"
+            android:layout_marginRight="@dimen/generic_right_margin"/>
+
+        <TextView
+            android:id="@+id/tvConfirmarDatosTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/generic_left_margin"
+            android:layout_marginTop="@dimen/generic_top_margin"
+            android:layout_marginRight="@dimen/generic_right_margin"/>
+
+        <TextView
+            android:id="@+id/tvConfirmarDatosEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/generic_left_margin"
+            android:layout_marginTop="@dimen/generic_top_margin"
+            android:layout_marginRight="@dimen/generic_right_margin"/>
+
+        <TextView
+            android:id="@+id/tvConfirmarDatosDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/generic_left_margin"
+            android:layout_marginTop="@dimen/generic_top_margin"
+            android:layout_marginRight="@dimen/generic_right_margin"/>
+
+        <Button
+            android:id="@+id/tvConfirmarDatosEditarDatos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/generic_left_margin"
+            android:layout_marginTop="@dimen/generic_top_margin"
+            android:layout_marginRight="@dimen/generic_right_margin"
+            android:text="@string/editar_datos"/>
+
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>
