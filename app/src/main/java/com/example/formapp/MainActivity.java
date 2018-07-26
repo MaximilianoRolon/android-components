@@ -63,13 +63,25 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void sendData(View view) {
-        Intent intent = new Intent(this, ConfirmarDatos.class);
-        intent.putExtra("FECHA", tvFecha.getText().toString());
-        intent.putExtra("NOMBRE", etNombre.getText().toString());
-        intent.putExtra("TELEFONO", etTelefono.getText().toString());
-        intent.putExtra("EMAIL", etEmail.getText().toString());
-        intent.putExtra("DESCRIPCION", etDescripcionContacto.getText().toString());
-        startActivity(intent);
+
+        String fecha_text = tvFecha.getText().toString();
+        String telefono_text = etTelefono.getText().toString();
+        String descripcion_text = etDescripcionContacto.getText().toString();
+        String email_text = etEmail.getText().toString();
+        String nombre_text = etNombre.getText().toString();
+
+        if ((fecha_text.equals(getString(R.string.text_fecha))) || (telefono_text.equals("")) || (descripcion_text.equals("")) || (email_text.equals("")) || (nombre_text.equals(""))) {
+        } else {
+
+            Intent intent = new Intent(this, ConfirmarDatos.class);
+            intent.putExtra("FECHA", tvFecha.getText().toString());
+            intent.putExtra("NOMBRE", etNombre.getText().toString());
+            intent.putExtra("TELEFONO", etTelefono.getText().toString());
+            intent.putExtra("EMAIL", etEmail.getText().toString());
+            intent.putExtra("DESCRIPCION", etDescripcionContacto.getText().toString());
+            startActivity(intent);
+
+        }
     }
 }
 
