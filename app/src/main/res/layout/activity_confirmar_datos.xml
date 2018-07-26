@@ -23,7 +23,7 @@
             android:textSize="@dimen/confirmar_datos_titulo_size"/>
 
         <TextView
-            android:id="@+id/tvConfirmarDatosNombre"
+            android:id="@+id/tvNombreEdit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/generic_left_margin"
@@ -31,7 +31,7 @@
             android:layout_marginRight="@dimen/generic_right_margin"/>
 
         <TextView
-            android:id="@+id/tvConfirmarDatosFecha"
+            android:id="@+id/tvFechaEdit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/generic_left_margin"
@@ -39,7 +39,7 @@
             android:layout_marginRight="@dimen/generic_right_margin"/>
 
         <TextView
-            android:id="@+id/tvConfirmarDatosTelefono"
+            android:id="@+id/tvTelefonoEdit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/generic_left_margin"
@@ -47,7 +47,7 @@
             android:layout_marginRight="@dimen/generic_right_margin"/>
 
         <TextView
-            android:id="@+id/tvConfirmarDatosEmail"
+            android:id="@+id/tvEmailEdit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/generic_left_margin"
@@ -55,7 +55,7 @@
             android:layout_marginRight="@dimen/generic_right_margin"/>
 
         <TextView
-            android:id="@+id/tvConfirmarDatosDescripcion"
+            android:id="@+id/tvDescripcionContactoEdit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/generic_left_margin"
@@ -69,7 +69,8 @@
             android:layout_marginLeft="@dimen/generic_left_margin"
             android:layout_marginTop="@dimen/generic_top_margin"
             android:layout_marginRight="@dimen/generic_right_margin"
-            android:text="@string/editar_datos"/>
+            android:text="@string/editar_datos"
+            android:onClick="clickEditData"/>
 
     </LinearLayout>
 
