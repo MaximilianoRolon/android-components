@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context="com.example.formapp.ConfirmarDatos">
 
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -22,45 +23,86 @@
             android:text="@string/confirmar_datos"
             android:textSize="@dimen/confirmar_datos_titulo_size"/>
 
-        <TextView
-            android:id="@+id/tvNombreEdit"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/generic_left_margin"
-            android:layout_marginTop="@dimen/generic_top_margin"
-            android:layout_marginRight="@dimen/generic_right_margin"/>
+            android:orientation="horizontal"
+            android:layout_marginRight="@dimen/generic_right_margin"
+            android:layout_marginLeft="@dimen/generic_left_margin">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nombre: " />
+            <TextView
+                android:id="@+id/tvNombreEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
 
-        <TextView
-            android:id="@+id/tvFechaEdit"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/generic_left_margin"
-            android:layout_marginTop="@dimen/generic_top_margin"
-            android:layout_marginRight="@dimen/generic_right_margin"/>
+            android:orientation="horizontal"
+            android:layout_marginRight="@dimen/generic_right_margin"
+            android:layout_marginLeft="@dimen/generic_left_margin">
+            <TextView
+                android:id="@+id/tvFechaEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
 
-        <TextView
-            android:id="@+id/tvTelefonoEdit"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/generic_left_margin"
-            android:layout_marginTop="@dimen/generic_top_margin"
-            android:layout_marginRight="@dimen/generic_right_margin"/>
+            android:orientation="horizontal"
+            android:layout_marginRight="@dimen/generic_right_margin"
+            android:layout_marginLeft="@dimen/generic_left_margin">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Telefono: " />
+            <TextView
+                android:id="@+id/tvTelefonoEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
 
-        <TextView
-            android:id="@+id/tvEmailEdit"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/generic_left_margin"
-            android:layout_marginTop="@dimen/generic_top_margin"
-            android:layout_marginRight="@dimen/generic_right_margin"/>
+            android:orientation="horizontal"
+            android:layout_marginRight="@dimen/generic_right_margin"
+            android:layout_marginLeft="@dimen/generic_left_margin">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email: " />
+            <TextView
+                android:id="@+id/tvEmailEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
 
-        <TextView
-            android:id="@+id/tvDescripcionContactoEdit"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/generic_left_margin"
-            android:layout_marginTop="@dimen/generic_top_margin"
-            android:layout_marginRight="@dimen/generic_right_margin"/>
+            android:orientation="horizontal"
+            android:layout_marginRight="@dimen/generic_right_margin"
+            android:layout_marginLeft="@dimen/generic_left_margin">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Descripcion: " />
+            <TextView
+                android:id="@+id/tvDescripcionContactoEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
 
         <Button
             android:id="@+id/tvConfirmarDatosEditarDatos"
